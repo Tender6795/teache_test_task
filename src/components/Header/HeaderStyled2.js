@@ -97,11 +97,12 @@ export const FullScreenContainer = styled.div`
 `;
 
 export const TextContainer = styled.div`
-  width: 708px;
-  height: 166px;
+  width: 994px;
+  height: 83px;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   font-size: 68px;
   text-align: center;
   color: white;
+  margin-top: -66px;
 `;

@@ -35,7 +35,7 @@ export const FirstSelector = styled.input`
   color: #1c274c;
   pointer-events: none;
   user-select: none;
-  background-color: rgba(247, 247, 247, 0.6); /* Фон с opacity */
+  background-color: rgba(247, 247, 247, 0.6);
 `;
 
 export const SecondSelector = styled.div`
@@ -56,8 +56,8 @@ export const SecondSelector = styled.div`
   justify-content: space-between;
   position: relative;
   padding-right: 50px;
-  background-color: rgba(247, 247, 247, 0.6); /* Фон с opacity */
-  color: rgba(28, 39, 76, 0.6); /* Текст с opacity */
+  background-color: rgba(247, 247, 247, 0.6);
+  color: rgba(28, 39, 76, 0.6); 
   pointer-events: none;
   user-select: none;
 
