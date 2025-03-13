@@ -10,6 +10,7 @@ import {
   IconContainer,
   LogoIconWrapper,
   TextContainer,
+  HeaderMenuCenterWrapper,
 } from "./HeaderStyled";
 import { UserIcon } from "../../icons/UserIcon";
 import { ArrowDownIcon } from "../../icons/ArrowDownIcon";
@@ -20,12 +21,14 @@ export const Header = () => {
       <HeaderMenuWrapper>
         <LogoIconWrapper>
           <LogoIcon />
-        </LogoIconWrapper>{" "}
-        <HeaderMenu>
-          <HeaderLink href="/">About Us</HeaderLink>
-          <HeaderLink href="/">FAQs</HeaderLink>
-          <HeaderLink href="/">Download the App</HeaderLink>
-        </HeaderMenu>
+        </LogoIconWrapper>
+        <HeaderMenuCenterWrapper>
+          <HeaderMenu>
+            <HeaderLink href="/">About Us</HeaderLink>
+            <HeaderLink href="/">FAQs</HeaderLink>
+            <HeaderLink href="/">Download the App</HeaderLink>
+          </HeaderMenu>
+        </HeaderMenuCenterWrapper>
         <ButtonContainer>
           <Button>Become an Instructor</Button>
           <IconContainer>

@@ -8,16 +8,24 @@ export const HeaderMenuWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 `;
 
 export const LogoIconWrapper = styled.div`
   cursor: pointer;
 `;
 
+export const HeaderMenuCenterWrapper = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`;
+
 export const HeaderMenu = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 50px; /* отступ между ссылками */
+  gap: 50px;
   font-family: Montserrat, sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -65,18 +73,20 @@ export const IconContainer = styled.div`
   gap: 10px;
   cursor: pointer;
 `;
+
 export const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 30px;
 `;
+
 export const FullScreenContainer = styled.div`
   width: 100%;
   background-color: #554df1;
   display: flex;
-  justify-content: center; /* Центрируем текст по горизонтали */
-  align-items: center; /* Центрируем текст по вертикали */
-  padding: 20px 0; /* Немного паддинга сверху и снизу для отступов */
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 `;
 
 export const TextContainer = styled.div`
