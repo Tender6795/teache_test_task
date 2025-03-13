@@ -87,6 +87,7 @@ export const FullScreenContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 20px 0;
+  height: 341px;
 `;
 
 export const TextContainer = styled.div`
